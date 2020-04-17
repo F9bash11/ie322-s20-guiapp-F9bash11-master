@@ -52,26 +52,26 @@
             this.BtnJohari = new System.Windows.Forms.Button();
             this.BtnABCAnalysis = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.BtnManufacturingCell = new System.Windows.Forms.Button();
             this.BtnCars = new System.Windows.Forms.Button();
             this.BtnMethod = new System.Windows.Forms.Button();
             this.BtnArray = new System.Windows.Forms.Button();
             this.BtnRandomCombo = new System.Windows.Forms.Button();
-            this.BtnManufacturingCell = new System.Windows.Forms.Button();
             this.BtnAbout = new System.Windows.Forms.Button();
             this.picBox = new System.Windows.Forms.PictureBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(5, 66);
+            this.label1.Location = new System.Drawing.Point(6, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 17);
+            this.label1.Size = new System.Drawing.Size(89, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "User Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -84,37 +84,37 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.BtnLogin);
             this.groupBox1.Controls.Add(this.BtnExit);
-            this.groupBox1.Location = new System.Drawing.Point(24, 160);
+            this.groupBox1.Location = new System.Drawing.Point(27, 200);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(351, 309);
+            this.groupBox1.Size = new System.Drawing.Size(395, 386);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login to IE322";
             // 
             // TxtPw
             // 
-            this.TxtPw.Location = new System.Drawing.Point(131, 150);
+            this.TxtPw.Location = new System.Drawing.Point(147, 188);
             this.TxtPw.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TxtPw.Name = "TxtPw";
-            this.TxtPw.Size = new System.Drawing.Size(193, 22);
+            this.TxtPw.Size = new System.Drawing.Size(217, 26);
             this.TxtPw.TabIndex = 3;
             // 
             // TxtUser
             // 
-            this.TxtUser.Location = new System.Drawing.Point(131, 62);
+            this.TxtUser.Location = new System.Drawing.Point(147, 78);
             this.TxtUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TxtUser.Name = "TxtUser";
-            this.TxtUser.Size = new System.Drawing.Size(193, 22);
+            this.TxtUser.Size = new System.Drawing.Size(217, 26);
             this.TxtUser.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(5, 153);
+            this.label2.Location = new System.Drawing.Point(6, 191);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 17);
+            this.label2.Size = new System.Drawing.Size(121, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Enter Password";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -123,10 +123,10 @@
             // 
             this.BtnLogin.BackColor = System.Drawing.Color.LightSeaGreen;
             this.BtnLogin.ForeColor = System.Drawing.Color.Black;
-            this.BtnLogin.Location = new System.Drawing.Point(9, 235);
+            this.BtnLogin.Location = new System.Drawing.Point(10, 294);
             this.BtnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnLogin.Name = "BtnLogin";
-            this.BtnLogin.Size = new System.Drawing.Size(140, 46);
+            this.BtnLogin.Size = new System.Drawing.Size(158, 58);
             this.BtnLogin.TabIndex = 2;
             this.BtnLogin.Text = "Login";
             this.BtnLogin.UseVisualStyleBackColor = false;
@@ -136,10 +136,10 @@
             // 
             this.BtnExit.BackColor = System.Drawing.Color.Red;
             this.BtnExit.ForeColor = System.Drawing.Color.Black;
-            this.BtnExit.Location = new System.Drawing.Point(184, 235);
+            this.BtnExit.Location = new System.Drawing.Point(207, 294);
             this.BtnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnExit.Name = "BtnExit";
-            this.BtnExit.Size = new System.Drawing.Size(140, 46);
+            this.BtnExit.Size = new System.Drawing.Size(158, 58);
             this.BtnExit.TabIndex = 3;
             this.BtnExit.Text = "EXIT";
             this.BtnExit.UseVisualStyleBackColor = false;
@@ -150,10 +150,10 @@
             this.BtnRadio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnRadio.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BtnRadio.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnRadio.Location = new System.Drawing.Point(27, 41);
+            this.BtnRadio.Location = new System.Drawing.Point(30, 51);
             this.BtnRadio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnRadio.Name = "BtnRadio";
-            this.BtnRadio.Size = new System.Drawing.Size(200, 50);
+            this.BtnRadio.Size = new System.Drawing.Size(225, 62);
             this.BtnRadio.TabIndex = 4;
             this.BtnRadio.Text = "Radio";
             this.BtnRadio.UseVisualStyleBackColor = false;
@@ -163,10 +163,10 @@
             // 
             this.BtnCheckBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnCheckBox.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnCheckBox.Location = new System.Drawing.Point(27, 118);
+            this.BtnCheckBox.Location = new System.Drawing.Point(30, 148);
             this.BtnCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnCheckBox.Name = "BtnCheckBox";
-            this.BtnCheckBox.Size = new System.Drawing.Size(200, 50);
+            this.BtnCheckBox.Size = new System.Drawing.Size(225, 62);
             this.BtnCheckBox.TabIndex = 5;
             this.BtnCheckBox.Text = "CheckBox";
             this.BtnCheckBox.UseVisualStyleBackColor = false;
@@ -176,10 +176,10 @@
             // 
             this.BtnCombo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnCombo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnCombo.Location = new System.Drawing.Point(258, 41);
+            this.BtnCombo.Location = new System.Drawing.Point(290, 51);
             this.BtnCombo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnCombo.Name = "BtnCombo";
-            this.BtnCombo.Size = new System.Drawing.Size(200, 50);
+            this.BtnCombo.Size = new System.Drawing.Size(225, 62);
             this.BtnCombo.TabIndex = 6;
             this.BtnCombo.Text = "Combo";
             this.BtnCombo.UseVisualStyleBackColor = false;
@@ -189,10 +189,10 @@
             // 
             this.BtnPictureBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnPictureBox.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnPictureBox.Location = new System.Drawing.Point(27, 192);
+            this.BtnPictureBox.Location = new System.Drawing.Point(30, 240);
             this.BtnPictureBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnPictureBox.Name = "BtnPictureBox";
-            this.BtnPictureBox.Size = new System.Drawing.Size(200, 50);
+            this.BtnPictureBox.Size = new System.Drawing.Size(225, 62);
             this.BtnPictureBox.TabIndex = 7;
             this.BtnPictureBox.Text = "PictureBox";
             this.BtnPictureBox.UseVisualStyleBackColor = false;
@@ -202,10 +202,10 @@
             // 
             this.Arduino.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.Arduino.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Arduino.Location = new System.Drawing.Point(221, 193);
+            this.Arduino.Location = new System.Drawing.Point(249, 241);
             this.Arduino.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Arduino.Name = "Arduino";
-            this.Arduino.Size = new System.Drawing.Size(150, 40);
+            this.Arduino.Size = new System.Drawing.Size(169, 50);
             this.Arduino.TabIndex = 8;
             this.Arduino.Text = "Arduino";
             this.Arduino.UseVisualStyleBackColor = false;
@@ -214,10 +214,10 @@
             // 
             this.BtnPictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnPictureBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnPictureBox2.Location = new System.Drawing.Point(221, 20);
+            this.BtnPictureBox2.Location = new System.Drawing.Point(249, 25);
             this.BtnPictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnPictureBox2.Name = "BtnPictureBox2";
-            this.BtnPictureBox2.Size = new System.Drawing.Size(150, 40);
+            this.BtnPictureBox2.Size = new System.Drawing.Size(169, 50);
             this.BtnPictureBox2.TabIndex = 9;
             this.BtnPictureBox2.Text = "PictureBox2";
             this.BtnPictureBox2.UseVisualStyleBackColor = false;
@@ -227,10 +227,10 @@
             // 
             this.BtnSelfieApp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnSelfieApp.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnSelfieApp.Location = new System.Drawing.Point(258, 192);
+            this.BtnSelfieApp.Location = new System.Drawing.Point(290, 240);
             this.BtnSelfieApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnSelfieApp.Name = "BtnSelfieApp";
-            this.BtnSelfieApp.Size = new System.Drawing.Size(200, 50);
+            this.BtnSelfieApp.Size = new System.Drawing.Size(225, 62);
             this.BtnSelfieApp.TabIndex = 10;
             this.BtnSelfieApp.Text = "SelfieApp";
             this.BtnSelfieApp.UseVisualStyleBackColor = false;
@@ -240,10 +240,10 @@
             // 
             this.BtnGroupieApp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnGroupieApp.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnGroupieApp.Location = new System.Drawing.Point(121, 302);
+            this.BtnGroupieApp.Location = new System.Drawing.Point(136, 378);
             this.BtnGroupieApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnGroupieApp.Name = "BtnGroupieApp";
-            this.BtnGroupieApp.Size = new System.Drawing.Size(150, 40);
+            this.BtnGroupieApp.Size = new System.Drawing.Size(169, 50);
             this.BtnGroupieApp.TabIndex = 11;
             this.BtnGroupieApp.Text = "GroupieApp";
             this.BtnGroupieApp.UseVisualStyleBackColor = false;
@@ -253,10 +253,10 @@
             // 
             this.BtnProgress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnProgress.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnProgress.Location = new System.Drawing.Point(221, 248);
+            this.BtnProgress.Location = new System.Drawing.Point(249, 310);
             this.BtnProgress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnProgress.Name = "BtnProgress";
-            this.BtnProgress.Size = new System.Drawing.Size(150, 40);
+            this.BtnProgress.Size = new System.Drawing.Size(169, 50);
             this.BtnProgress.TabIndex = 12;
             this.BtnProgress.Text = "Progress";
             this.BtnProgress.UseVisualStyleBackColor = false;
@@ -265,10 +265,10 @@
             // 
             this.BtnTimer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnTimer.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnTimer.Location = new System.Drawing.Point(17, 193);
+            this.BtnTimer.Location = new System.Drawing.Point(19, 241);
             this.BtnTimer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnTimer.Name = "BtnTimer";
-            this.BtnTimer.Size = new System.Drawing.Size(150, 40);
+            this.BtnTimer.Size = new System.Drawing.Size(169, 50);
             this.BtnTimer.TabIndex = 13;
             this.BtnTimer.Text = "Timer";
             this.BtnTimer.UseVisualStyleBackColor = false;
@@ -278,10 +278,10 @@
             // 
             this.BtnRandom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnRandom.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnRandom.Location = new System.Drawing.Point(258, 118);
+            this.BtnRandom.Location = new System.Drawing.Point(290, 148);
             this.BtnRandom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnRandom.Name = "BtnRandom";
-            this.BtnRandom.Size = new System.Drawing.Size(200, 50);
+            this.BtnRandom.Size = new System.Drawing.Size(225, 62);
             this.BtnRandom.TabIndex = 14;
             this.BtnRandom.Text = "Random";
             this.BtnRandom.UseVisualStyleBackColor = false;
@@ -291,10 +291,10 @@
             // 
             this.BtnDraw.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnDraw.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnDraw.Location = new System.Drawing.Point(17, 20);
+            this.BtnDraw.Location = new System.Drawing.Point(19, 25);
             this.BtnDraw.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnDraw.Name = "BtnDraw";
-            this.BtnDraw.Size = new System.Drawing.Size(150, 40);
+            this.BtnDraw.Size = new System.Drawing.Size(169, 50);
             this.BtnDraw.TabIndex = 16;
             this.BtnDraw.Text = "Draw";
             this.BtnDraw.UseVisualStyleBackColor = false;
@@ -304,10 +304,10 @@
             // 
             this.BtnTalk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnTalk.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnTalk.Location = new System.Drawing.Point(17, 248);
+            this.BtnTalk.Location = new System.Drawing.Point(19, 310);
             this.BtnTalk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnTalk.Name = "BtnTalk";
-            this.BtnTalk.Size = new System.Drawing.Size(150, 40);
+            this.BtnTalk.Size = new System.Drawing.Size(169, 50);
             this.BtnTalk.TabIndex = 17;
             this.BtnTalk.Text = "Talk";
             this.BtnTalk.UseVisualStyleBackColor = false;
@@ -316,10 +316,10 @@
             // 
             this.BtnRoboticCell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnRoboticCell.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnRoboticCell.Location = new System.Drawing.Point(221, 138);
+            this.BtnRoboticCell.Location = new System.Drawing.Point(249, 172);
             this.BtnRoboticCell.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnRoboticCell.Name = "BtnRoboticCell";
-            this.BtnRoboticCell.Size = new System.Drawing.Size(150, 40);
+            this.BtnRoboticCell.Size = new System.Drawing.Size(169, 50);
             this.BtnRoboticCell.TabIndex = 19;
             this.BtnRoboticCell.Text = "Robotic Cell";
             this.BtnRoboticCell.UseVisualStyleBackColor = false;
@@ -328,10 +328,10 @@
             // 
             this.BtnJohari.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnJohari.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnJohari.Location = new System.Drawing.Point(17, 139);
+            this.BtnJohari.Location = new System.Drawing.Point(19, 174);
             this.BtnJohari.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnJohari.Name = "BtnJohari";
-            this.BtnJohari.Size = new System.Drawing.Size(150, 40);
+            this.BtnJohari.Size = new System.Drawing.Size(169, 50);
             this.BtnJohari.TabIndex = 20;
             this.BtnJohari.Text = "Johari";
             this.BtnJohari.UseVisualStyleBackColor = false;
@@ -340,10 +340,10 @@
             // 
             this.BtnABCAnalysis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnABCAnalysis.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnABCAnalysis.Location = new System.Drawing.Point(17, 82);
+            this.BtnABCAnalysis.Location = new System.Drawing.Point(19, 102);
             this.BtnABCAnalysis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnABCAnalysis.Name = "BtnABCAnalysis";
-            this.BtnABCAnalysis.Size = new System.Drawing.Size(150, 40);
+            this.BtnABCAnalysis.Size = new System.Drawing.Size(169, 50);
             this.BtnABCAnalysis.TabIndex = 21;
             this.BtnABCAnalysis.Text = "ABC Analysis";
             this.BtnABCAnalysis.UseVisualStyleBackColor = false;
@@ -361,100 +361,15 @@
             this.groupBox2.Controls.Add(this.BtnRandom);
             this.groupBox2.Controls.Add(this.BtnCombo);
             this.groupBox2.Controls.Add(this.BtnPictureBox);
-            this.groupBox2.Location = new System.Drawing.Point(411, 34);
+            this.groupBox2.Location = new System.Drawing.Point(462, 42);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(1048, 435);
+            this.groupBox2.Size = new System.Drawing.Size(1179, 544);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Controls";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
-            // 
-            // BtnCars
-            // 
-            this.BtnCars.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.BtnCars.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnCars.Location = new System.Drawing.Point(27, 268);
-            this.BtnCars.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BtnCars.Name = "BtnCars";
-            this.BtnCars.Size = new System.Drawing.Size(200, 50);
-            this.BtnCars.TabIndex = 26;
-            this.BtnCars.Text = "Cars";
-            this.BtnCars.UseVisualStyleBackColor = false;
-            this.BtnCars.Click += new System.EventHandler(this.BtnCars_Click);
-            // 
-            // BtnMethod
-            // 
-            this.BtnMethod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.BtnMethod.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnMethod.Location = new System.Drawing.Point(258, 268);
-            this.BtnMethod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BtnMethod.Name = "BtnMethod";
-            this.BtnMethod.Size = new System.Drawing.Size(200, 50);
-            this.BtnMethod.TabIndex = 25;
-            this.BtnMethod.Text = "Method";
-            this.BtnMethod.UseVisualStyleBackColor = false;
-            this.BtnMethod.Click += new System.EventHandler(this.BtnMethod_Click);
-            // 
-            // BtnArray
-            // 
-            this.BtnArray.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.BtnArray.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnArray.Location = new System.Drawing.Point(27, 338);
-            this.BtnArray.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BtnArray.Name = "BtnArray";
-            this.BtnArray.Size = new System.Drawing.Size(200, 50);
-            this.BtnArray.TabIndex = 24;
-            this.BtnArray.Text = "Array";
-            this.BtnArray.UseVisualStyleBackColor = false;
-            this.BtnArray.Click += new System.EventHandler(this.BtnArray_Click);
-            // 
-            // BtnRandomCombo
-            // 
-            this.BtnRandomCombo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.BtnRandomCombo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnRandomCombo.Location = new System.Drawing.Point(258, 338);
-            this.BtnRandomCombo.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnRandomCombo.Name = "BtnRandomCombo";
-            this.BtnRandomCombo.Size = new System.Drawing.Size(200, 50);
-            this.BtnRandomCombo.TabIndex = 23;
-            this.BtnRandomCombo.Text = "Random Combo";
-            this.BtnRandomCombo.UseVisualStyleBackColor = false;
-            this.BtnRandomCombo.Click += new System.EventHandler(this.BtnRandomCombo_Click);
-            // 
-            // BtnManufacturingCell
-            // 
-            this.BtnManufacturingCell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.BtnManufacturingCell.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnManufacturingCell.Location = new System.Drawing.Point(221, 82);
-            this.BtnManufacturingCell.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BtnManufacturingCell.Name = "BtnManufacturingCell";
-            this.BtnManufacturingCell.Size = new System.Drawing.Size(150, 40);
-            this.BtnManufacturingCell.TabIndex = 22;
-            this.BtnManufacturingCell.Text = "Manufacturing Cell";
-            this.BtnManufacturingCell.UseVisualStyleBackColor = false;
-            // 
-            // BtnAbout
-            // 
-            this.BtnAbout.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.BtnAbout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnAbout.Location = new System.Drawing.Point(1295, 499);
-            this.BtnAbout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BtnAbout.Name = "BtnAbout";
-            this.BtnAbout.Size = new System.Drawing.Size(164, 39);
-            this.BtnAbout.TabIndex = 23;
-            this.BtnAbout.Text = "About";
-            this.BtnAbout.UseVisualStyleBackColor = false;
-            this.BtnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
-            // 
-            // picBox
-            // 
-            this.picBox.Location = new System.Drawing.Point(24, 4);
-            this.picBox.Name = "picBox";
-            this.picBox.Size = new System.Drawing.Size(149, 130);
-            this.picBox.TabIndex = 24;
-            this.picBox.TabStop = false;
             // 
             // groupBox3
             // 
@@ -469,19 +384,107 @@
             this.groupBox3.Controls.Add(this.BtnRoboticCell);
             this.groupBox3.Controls.Add(this.BtnGroupieApp);
             this.groupBox3.Controls.Add(this.Arduino);
-            this.groupBox3.Location = new System.Drawing.Point(599, 41);
+            this.groupBox3.Location = new System.Drawing.Point(674, 51);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(387, 347);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox3.Size = new System.Drawing.Size(435, 434);
             this.groupBox3.TabIndex = 27;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Under Development";
             // 
+            // BtnManufacturingCell
+            // 
+            this.BtnManufacturingCell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnManufacturingCell.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnManufacturingCell.Location = new System.Drawing.Point(249, 102);
+            this.BtnManufacturingCell.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnManufacturingCell.Name = "BtnManufacturingCell";
+            this.BtnManufacturingCell.Size = new System.Drawing.Size(169, 50);
+            this.BtnManufacturingCell.TabIndex = 22;
+            this.BtnManufacturingCell.Text = "Manufacturing Cell";
+            this.BtnManufacturingCell.UseVisualStyleBackColor = false;
+            // 
+            // BtnCars
+            // 
+            this.BtnCars.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnCars.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnCars.Location = new System.Drawing.Point(30, 335);
+            this.BtnCars.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnCars.Name = "BtnCars";
+            this.BtnCars.Size = new System.Drawing.Size(225, 62);
+            this.BtnCars.TabIndex = 26;
+            this.BtnCars.Text = "Cars";
+            this.BtnCars.UseVisualStyleBackColor = false;
+            this.BtnCars.Click += new System.EventHandler(this.BtnCars_Click);
+            // 
+            // BtnMethod
+            // 
+            this.BtnMethod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnMethod.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnMethod.Location = new System.Drawing.Point(290, 335);
+            this.BtnMethod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnMethod.Name = "BtnMethod";
+            this.BtnMethod.Size = new System.Drawing.Size(225, 62);
+            this.BtnMethod.TabIndex = 25;
+            this.BtnMethod.Text = "Method";
+            this.BtnMethod.UseVisualStyleBackColor = false;
+            this.BtnMethod.Click += new System.EventHandler(this.BtnMethod_Click);
+            // 
+            // BtnArray
+            // 
+            this.BtnArray.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnArray.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnArray.Location = new System.Drawing.Point(30, 422);
+            this.BtnArray.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnArray.Name = "BtnArray";
+            this.BtnArray.Size = new System.Drawing.Size(225, 62);
+            this.BtnArray.TabIndex = 24;
+            this.BtnArray.Text = "Array";
+            this.BtnArray.UseVisualStyleBackColor = false;
+            this.BtnArray.Click += new System.EventHandler(this.BtnArray_Click);
+            // 
+            // BtnRandomCombo
+            // 
+            this.BtnRandomCombo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnRandomCombo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnRandomCombo.Location = new System.Drawing.Point(290, 422);
+            this.BtnRandomCombo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnRandomCombo.Name = "BtnRandomCombo";
+            this.BtnRandomCombo.Size = new System.Drawing.Size(225, 62);
+            this.BtnRandomCombo.TabIndex = 23;
+            this.BtnRandomCombo.Text = "Random Combo";
+            this.BtnRandomCombo.UseVisualStyleBackColor = false;
+            this.BtnRandomCombo.Click += new System.EventHandler(this.BtnRandomCombo_Click);
+            // 
+            // BtnAbout
+            // 
+            this.BtnAbout.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.BtnAbout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnAbout.Location = new System.Drawing.Point(1457, 624);
+            this.BtnAbout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnAbout.Name = "BtnAbout";
+            this.BtnAbout.Size = new System.Drawing.Size(184, 49);
+            this.BtnAbout.TabIndex = 23;
+            this.BtnAbout.Text = "About";
+            this.BtnAbout.UseVisualStyleBackColor = false;
+            this.BtnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
+            // 
+            // picBox
+            // 
+            this.picBox.Location = new System.Drawing.Point(27, 13);
+            this.picBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.picBox.Name = "picBox";
+            this.picBox.Size = new System.Drawing.Size(174, 142);
+            this.picBox.TabIndex = 24;
+            this.picBox.TabStop = false;
+            // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(1469, 547);
+            this.ClientSize = new System.Drawing.Size(1653, 684);
             this.Controls.Add(this.picBox);
             this.Controls.Add(this.BtnAbout);
             this.Controls.Add(this.groupBox2);
@@ -493,8 +496,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBox)).EndInit();
             this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).EndInit();
             this.ResumeLayout(false);
 
         }
